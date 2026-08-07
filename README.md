@@ -26,8 +26,9 @@ NAT and ACLs are planned as next steps.
 - **Port-Security**: enabled on all access switch ports, restricting each 
   port to a single learned MAC address; violations result in the interface 
   being shut down (violation mode: shutdown)
+- Add a simulated ISP router with NAT overload for internet access
 
 ## Next Steps
 
-- [ ] Add a simulated ISP router with NAT overload for internet access
-- [ ] Implement ACLs to control traffic between VLANs
+- [ ] Implement ACLs to control traffic between networks.
+- [ ] Implement OSPF by adding two different smaller networks.
