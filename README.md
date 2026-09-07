@@ -27,8 +27,9 @@ NAT and ACLs are planned as next steps.
   port to a single learned MAC address; violations result in the interface 
   being shut down (violation mode: shutdown)
 - Add a simulated ISP router with NAT overload for internet access
+- Added 5 new routers to the topology in order to configure multi-area OSPf
 
 ## Next Steps
 
 - [ ] Implement ACLs to control traffic between networks.
-- [ ] Implement OSPF by adding two different smaller networks.
+- [ ] Implement Security on every router and switch
